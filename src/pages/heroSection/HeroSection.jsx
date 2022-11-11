@@ -9,10 +9,12 @@ import star from "../../assets/Group 8.svg";
 
 const HeroSection = () => {
         return (
-                <div style={{ backgroundColor: '#ffffff' }}>
+                <div className="hero_section">
                         <div className='container'>
                                 <div className="row overflow-hidden" >
-                                        <div className="col-md-7 hero_div">
+                                <div className="col-md-7 hero_div">
+                                        
+
                                                 <h2 className='common_h2'>Verbessere deine Darmgesundheit - Optimiere dein Körpergewicht</h2>
                                                 <p
                                                         className='common_p'>Colonpax ist ein sicherer und effektiver Weg, wie du Verstopfungen auf eine natürliche Weise lösen, Gewicht reduzieren und auch Blähungen vermindern kannst. Beantworte das kostenfreie Quiz und erfahre, wie es dir helfen kann.</p>
@@ -51,11 +53,11 @@ const HeroSection = () => {
 
                                                 </div>
 
-                                        </div>
+                                </div>
 
-                                        <div className="col-md-5">
+                                <div className="col-md-5">
                                                 <img src={hero} alt="hero image" classname="img-fluid w-100" />
-                                        </div>
+                                </div>
 
                                 </div>
                         </div>

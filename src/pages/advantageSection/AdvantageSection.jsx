@@ -18,7 +18,7 @@ const AdvantageSection = () => {
          
       </div>
       <div className="grid_div">
-        <div className='d-flex border_right'>
+        <div className='d-flex'>
           <div>
             <img src={bord} alt="" className='px-2'/>
           </div>
@@ -38,7 +38,7 @@ const AdvantageSection = () => {
           </div>
           
         </div>
-        <div className='d-flex border_right'>
+        <div className='d-flex'>
         <div>
             <img src={jar} alt="" className='px-2'/>
           </div>

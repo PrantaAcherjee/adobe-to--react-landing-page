@@ -1,10 +1,13 @@
- 
+.hero_section {
+        padding-top: 5rem;
+}
+
 .hero_div {
         background-image: url("../../assets/Group 1.svg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: start;
-        
+          
 }
 
 .common_h2 {
@@ -13,6 +16,7 @@
         letter-spacing: -1.47px;
         color: #103B19;
         opacity: 1;
+        font-family: 'Poppins', sans-serif !important;
 }
 
 .common_p {
@@ -21,6 +25,7 @@
         letter-spacing: 1px;
         color: #333333;
         opacity: 1;
+        font-family: 'Poppins', sans-serif !important
 }
 
 .bold_tag {
@@ -29,6 +34,7 @@
         letter-spacing: -0.5px;
         color: #103B19;
         opacity: 1;
+        font-family: 'Poppins', sans-serif !important;
 }
 
 .btn_one {
@@ -86,13 +92,22 @@ span {
 @media(max-width:500px) {
         .mini_icon {
                 display: flex;
-        flex-direction: column;
-        
+                flex-direction: column;
+
         }
-        .mini_icon div{
+
+        .mini_icon div {
                 margin-top: 7px;
         }
-        .btn_two{
+
+        .btn_two {
                 margin-top: 7px;
+        }
+}
+
+@media(min-width:1800px) {
+        span {
+                padding-right: 1.5rem;
+
         }
 }

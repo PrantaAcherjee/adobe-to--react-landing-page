@@ -21,6 +21,7 @@
         color: #103B19;
         opacity: 1;
         padding-bottom: 1rem;
+        font-family: 'Poppins', sans-serif !important;
 }
 
 .adv_p {
@@ -29,7 +30,7 @@
         letter-spacing: 1px;
         color: #333333;
         opacity: 1;
-
+        font-family: 'Lora', serif;
 }
 
 .link_paragraph {
@@ -39,6 +40,7 @@
         color: #103B19BF;
         text-transform: uppercase;
         opacity: 1;
+        font-family: 'Poppins', sans-serif !important;
 }
 
 .advantage_h2 {
@@ -47,6 +49,7 @@
         letter-spacing: -1px;
         color: #103B19;
         opacity: 1;
+        font-family: 'Poppins', sans-serif !important;
 
 }
 
@@ -55,6 +58,7 @@
         letter-spacing: 1px;
         color: #333333;
         opacity: 1;
+        font-family: 'Poppins', sans-serif !important;
 }
 
 

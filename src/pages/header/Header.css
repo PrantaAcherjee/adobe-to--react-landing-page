@@ -1,3 +1,7 @@
+button:hover {
+        box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2)
+}
+
 .link {
         text-align: left;
         font: normal normal normal 16px/32px Poppins-Regular;
@@ -5,6 +9,15 @@
         color: #333333;
         opacity: 1;
         margin-right: 1.4rem;
+        font-family: 'Poppins', sans-serif !important;
+}
+
+.link:hover {
+
+        box-shadow: 1px 0.5px 1px 0.5px rgb(31, 202, 31);
+        border-radius: 35%;
+        
+        
 }
 
 .nav_btn {

@@ -45,7 +45,7 @@ const Footer = () => {
               <li>Kontaktiere uns</li>
             </ul>
           </div>
-          <div className='col-md-2 d-flex justify-content-between'>
+          <div className='col-md-2 d-flex justify-content-around social_link'>
             <div>
               <img src={facebook} alt="" />
             </div>

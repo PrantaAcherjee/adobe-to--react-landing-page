@@ -4,6 +4,7 @@
         letter-spacing: 1px;
         color: #103B19BF;
         opacity: 1;
+        font-family: 'Poppins', sans-serif !important;
 }
 
 .faq_h2 {
@@ -13,6 +14,7 @@
         letter-spacing: -1px;
         color: #103B19;
         opacity: 1;
+        font-family: 'Poppins', sans-serif !important;
 }
 
 .faq_btn {
@@ -42,10 +44,11 @@
         font-weight: bold !important;
         padding-top:2rem !important;
         box-shadow: none !important;
+        font-family: 'Poppins', sans-serif !important;
         
 }
 .accordion-item {
-        background-color: #EDF7F0 !important;
+        background-color: #ffffff !important;
         border: none !important;
 }
 .service_div{

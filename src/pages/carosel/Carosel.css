@@ -11,6 +11,7 @@
         letter-spacing: -1px;
         color: #103B19;
         opacity: 1;
+        font-family: 'Poppins', sans-serif !important;
 }
 
 .caro_p {
@@ -26,20 +27,24 @@
         width: 55px;
         object-fit: contain;
 }
-.star{
-margin-top: -20px;
+
+.star {
+        margin-top: -20px;
 }
+
 .caro_h5 {
         text-align: center;
         font: normal normal bold 16px/24px Poppins;
         letter-spacing: 1px;
         color: #333333;
+        font-family: 'Poppins', sans-serif;
 }
 
 .inner_p {
         text-align: center;
         letter-spacing: 0.70px;
         color: #333333;
+        font-family: 'Poppins', sans-serif;
 }
 
 .slider {
@@ -49,10 +54,10 @@ margin-top: -20px;
         border: 1px solid #D1E8D8;
         border-radius: 18px;
         opacity: 1;
-        width: 325px;
+        width: 90%;
         height: 500px;
         padding: 2rem 1.5rem;
-        margin-left: 30px;
+        margin-left: 26px;
 }
 
 .swiper-slide-active {
@@ -77,6 +82,7 @@ margin-top: -20px;
 
 }
 
+
 .swiper-button-next {
         background-image: url(../../assets/right.svg);
         z-index: 999;
@@ -91,11 +97,25 @@ margin-top: -20px;
 
 }
 
+.swiper-horizontal>.swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal,
+.swiper-pagination-custom,
+.swiper-pagination-fraction {
+        bottom: -25px !important;
+}
+
+.swiper-pagination {
+        position: static !important;
+}
+
+
 .rev_h4 {
         text-align: center;
         letter-spacing: 0px;
         color: #103B19;
         opacity: 1
+        ;
+        font-family: 'Poppins', sans-serif;
 }
 
 .rev_p {
@@ -105,4 +125,10 @@ margin-top: -20px;
         opacity: 1;
         padding-left: 2.4rem;
 
+}
+
+@media (min-width:1800px) {
+        .slider {
+                margin-left: 28px;
+        }
 }

@@ -44,8 +44,8 @@ const Carosel = () => {
         modules={[Pagination, Navigation]}
         className="mySwiper"
       >
-        <SwiperSlide className=''>
-          <div className=' slider'>
+        <SwiperSlide className='border_div'>
+          <div className='slider'>
             <div className='d-flex'>
               <div><img src={man} alt="" className='review_img'/></div>
               <div>
