@@ -1,7 +1,7 @@
 .caro_div {
         background-color: #EDF7F0;
         padding: 5rem 0;
-        margin-top: 9rem;
+        margin-top: 7rem;
 
 }
 
@@ -26,7 +26,9 @@
         width: 55px;
         object-fit: contain;
 }
-
+.star{
+margin-top: -20px;
+}
 .caro_h5 {
         text-align: center;
         font: normal normal bold 16px/24px Poppins;
@@ -36,7 +38,7 @@
 
 .inner_p {
         text-align: center;
-        letter-spacing: 0.80px;
+        letter-spacing: 0.70px;
         color: #333333;
 }
 
@@ -102,4 +104,5 @@
         color: #62C476;
         opacity: 1;
         padding-left: 2.4rem;
+
 }

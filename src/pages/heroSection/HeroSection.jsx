@@ -54,7 +54,7 @@ const HeroSection = () => {
                                         </div>
 
                                         <div className="col-md-5">
-                                                <img src={hero} alt="hero image" classname="img-fluid" />
+                                                <img src={hero} alt="hero image" classname="img-fluid w-100" />
                                         </div>
 
                                 </div>

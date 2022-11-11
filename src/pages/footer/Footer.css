@@ -37,12 +37,17 @@ li {
         margin-top: -210px;
         margin-bottom: 3rem;
         border-radius: 20px;
+        position: relative;
 }
 .card_img{
         top: 5989px;
         left: 90px;
-        width: 700px;
-        height: 300px
+        width: 1000px;
+        height: 400px
+}
+.card_imges{
+position: absolute;
+left: 50%;
 }
 
 .card_h2 {

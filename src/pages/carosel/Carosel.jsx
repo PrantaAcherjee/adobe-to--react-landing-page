@@ -14,7 +14,7 @@ import star from "../../assets/Group 8.svg";
 
 const Carosel = () => {
   return (
-    <div className='caro_div mt-5 pt-5'>
+    <div className='caro_div pt-5'>
       <h2 className='caro_h2'>Tausende von glücklichen Kunden</h2>
       <p className='caro_p'>Und sie mögen 99 Probleme haben, aber der Darm ist keines davon.</p>
       <div className='container pt-5'>
@@ -51,7 +51,7 @@ const Carosel = () => {
               <div>
                 <h4 className='rev_h4'>Bernarr D.</h4>
                 <p className='rev_p'>Verifizierter Kunde</p>
-                <img src={star} alt="ratings" className='img-fluid mb-2 ms-4 ps-3' />
+                <img src={star} alt="ratings" className='img-fluid mb-2 ms-4 ps-3 star'/>
               </div>
             </div>
             <h5 className='caro_h5'>Perfekt zum Abnehmen</h5>
@@ -65,7 +65,7 @@ const Carosel = () => {
               <div>
               <h4 className='rev_h4'>Jasmin T.</h4>
                 <p className='rev_p'>Verifizierter Kunde</p>
-                <img src={star} alt="ratings" className='img-fluid mb-2 ms-4 ps-3' />
+                <img src={star} alt="ratings" className='img-fluid mb-2 ms-4 ps-3 star' />
               </div>
             </div>
             <h5 className='caro_h5'>Verstopfung ist weg</h5>
@@ -79,7 +79,7 @@ const Carosel = () => {
               <div>
               <h4 className='rev_h4'>Dameon P.</h4>
                 <p className='rev_p'>Verifizierter Kunde</p>
-                <img src={star} alt="ratings" className='img-fluid mb-2 ms-4 ps-3' />
+                <img src={star} alt="ratings" className='img-fluid mb-2 ms-4 ps-3 star' />
               </div>
             </div>
             <h5 className='caro_h5'>Empfehlenswert</h5>

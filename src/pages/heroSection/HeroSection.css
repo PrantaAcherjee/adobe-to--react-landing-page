@@ -1,8 +1,10 @@
+ 
 .hero_div {
         background-image: url("../../assets/Group 1.svg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: start;
+        
 }
 
 .common_h2 {

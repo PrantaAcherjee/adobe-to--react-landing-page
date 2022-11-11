@@ -17,7 +17,7 @@ const Footer = () => {
             <p className='card_p'>Important fact about learning is that it is a means to improve knowledge.</p>
             <button className='card_btn'>MACH DEN TEST</button>
           </div>
-          <div className="col-md-6">
+          <div className="col-md-6 card_imges">
             <img src={cloud} alt="" className='card_img' />
           </div>
         </div>
