@@ -1,0 +1,69 @@
+.grid_div {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        justify-content: start;
+        grid-gap: 1rem;
+        padding: 4rem 0;
+
+
+}
+
+.border_right {
+        border-right: 1px solid rgb(230, 219, 219);
+        padding-right: 7px;
+}
+
+.adv_h4 {
+        /* UI Properties */
+        text-align: center;
+        font: normal normal 900 20px/32px Dejanire Headline;
+        letter-spacing: 0px;
+        color: #103B19;
+        opacity: 1;
+        padding-bottom: 1rem;
+}
+
+.adv_p {
+        /* UI Properties */
+        text-align: center;
+        letter-spacing: 1px;
+        color: #333333;
+        opacity: 1;
+
+}
+
+.link_paragraph {
+        text-align: center;
+        text-decoration: underline;
+        letter-spacing: 1.25px;
+        color: #103B19BF;
+        text-transform: uppercase;
+        opacity: 1;
+}
+
+.advantage_h2 {
+        text-align: left;
+        font: normal normal bold 56px/64px Dejanire Headline;
+        letter-spacing: -1px;
+        color: #103B19;
+        opacity: 1;
+
+}
+
+.advantage_p {
+        text-align: left;
+        letter-spacing: 1px;
+        color: #333333;
+        opacity: 1;
+}
+
+
+@media(max-width:500px) {
+        .grid_div {
+                grid-template-columns: auto;
+        }
+
+        .border_right {
+                border: none;
+        }
+}

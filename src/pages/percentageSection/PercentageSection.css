@@ -1,0 +1,74 @@
+.main_box{
+        position: relative;
+}
+.arrowsvg{
+        position: absolute;
+        left: 90%;
+}
+.usvg{
+position: absolute;
+left: 5%;
+bottom:-9%;
+}
+.percent_bg {
+        background-color: #EDF7F0;
+        padding: 5rem 0;
+        border-radius: 18px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+         
+}
+
+.percent_h4 {
+        text-align: center;
+        font: normal normal bold 56px/64px Dejanire Headline;
+        letter-spacing: -1px;
+        color: #103B19;
+        opacity: 1;
+}
+
+.percent_p {
+        text-align: center;
+        font: normal normal normal 20px/32px Poppins;
+        letter-spacing: 0px;
+        color: #103B19BF;
+        opacity: 1;
+        padding: 0 24%;
+}
+
+.content h2 {
+        /* UI Properties */
+        text-align: center;
+        font: normal normal bold 72px/80px Dejanire Headline;
+        letter-spacing: -2px;
+        color: #103B19;
+        opacity: 1;
+}
+
+.content p {
+        text-align: center;
+        font: normal normal normal 16px/32px Poppins;
+        letter-spacing: 0px;
+        color: #103B19BF;
+        opacity: 1;
+        padding: 0 2rem;
+}
+
+.stand_p {
+
+        text-align: center;
+        font: normal normal medium 14px/21px Poppins;
+        letter-spacing: 0px;
+        color: #103B19BF;
+        opacity: 1;
+        padding: 0 20%;
+}
+
+
+@media(max-width:500px) {
+        .usvg{
+         bottom: -2%;       
+        }
+}

@@ -1,0 +1,71 @@
+.faq_p {
+        /* UI Properties */
+        text-align: left;
+        letter-spacing: 1px;
+        color: #103B19BF;
+        opacity: 1;
+}
+
+.faq_h2 {
+        /* UI Properties */
+        text-align: left;
+        font: normal normal bold 56px/64px Dejanire Headline;
+        letter-spacing: -1px;
+        color: #103B19;
+        opacity: 1;
+}
+
+.faq_btn {
+        width: 174px;
+        height: 48px;
+        /* UI Properties */
+        border: 1px solid #62C4764E;
+        border-radius: 6px;
+        opacity: 1;
+        border: none;
+        text-align: center;
+        font: normal normal medium 16px/19px Dejanire Headline;
+        letter-spacing: 0px;
+        color: #62C476;
+        text-transform: uppercase;
+        opacity: 1;
+}
+
+.accordion-button {
+        background-color: #EDF7F0 !important;
+        border: none !important;
+        text-align: left !important;
+        letter-spacing: 0px !important;
+        color: #103B19 !important;
+        opacity: 1;
+        font-size: 18px !important;
+        font-weight: bold !important;
+        padding-top:2rem !important;
+        box-shadow: none !important;
+        
+}
+.accordion-item {
+        background-color: #EDF7F0 !important;
+        border: none !important;
+}
+.service_div{
+padding-top: 7rem;
+padding-bottom: 9rem;
+}
+
+.accordion-button:not(.collapsed)::after{
+        background-image:url("../../assets/down.svg");
+        transform: rotate(360deg);
+        
+        }
+        .accordion-button::after{
+        background-image:url("../../assets/down.svg"); 
+        }
+
+.service{
+        text-align: left;
+        font: normal normal bold 25px/30px Dejanire Headline;
+        letter-spacing: 0px;
+        color: #103B19;
+        opacity: 1;       
+}

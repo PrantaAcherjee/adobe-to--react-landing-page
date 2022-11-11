@@ -1,0 +1,78 @@
+.footer_section {
+        background-color: #0E2814;
+        padding: 4rem 0;
+        letter-spacing: 1px;
+        color: #FFFFFF;
+        opacity: 1;
+}
+
+.footer_p {
+        text-align: left;
+        font: normal normal normal 14px/24px Poppins-Regular;
+        letter-spacing: 1px;
+        color: #FFFFFF7E;
+        opacity: 1;
+
+}
+
+ul {
+        text-align: left;
+        letter-spacing: 3px;
+        color: #FFFFFF;
+        opacity: 1;
+}
+
+li {
+        list-style: none;
+        /* UI Properties */
+        text-align: left;
+        letter-spacing: 1px;
+        color: #FFFFFF;
+        opacity: 1;
+}
+
+.cards {
+        background-color: #62C476;
+        padding: 2rem;
+        margin-top: -210px;
+        margin-bottom: 3rem;
+        border-radius: 20px;
+}
+.card_img{
+        top: 5989px;
+        left: 90px;
+        width: 700px;
+        height: 300px
+}
+
+.card_h2 {
+        text-align: left;
+        font: normal normal bold 56px/64px Dejanire Headline;
+        letter-spacing: -1px;
+        color: #FFFFFF;
+        opacity: 1;
+}
+
+.card_p {
+        /* UI Properties */
+        text-align: left;
+        letter-spacing: 1px;
+        color: #FFFFFF;
+        opacity: 1;
+}
+
+.card_btn {
+        width: 170px;
+        height: 48px;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        border-radius: 14px;
+        opacity: 1;
+        color: #62C476;
+        opacity: 1;
+        text-align: center;
+        font: normal normal medium 16px/25px Poppins;
+        letter-spacing: 0px;
+        color: #62C476;
+        text-transform: uppercase;
+        border: none;
+}
