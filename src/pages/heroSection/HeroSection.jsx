@@ -12,8 +12,8 @@ const HeroSection = () => {
                 <div className="hero_section">
                         <div className='container'>
                                 <div className="row overflow-hidden" >
-                                <div className="col-md-7 hero_div">
-                                        
+                                        <div className="col-md-7 hero_div">
+
 
                                                 <h2 className='common_h2'>Verbessere deine Darmgesundheit - Optimiere dein Körpergewicht</h2>
                                                 <p
@@ -28,7 +28,7 @@ const HeroSection = () => {
 
                                                 <p className='little_p'>„Seitdem ich Colonpax nehme, ist mein Blähbauch verschwunden und ich habe weniger Darmbeschwerden, auch mein ständiger Heisshunger und meine Lust auf Süßes oder Fastfood ist einfach weg. Außerdem schmeckt es SO GUT.“</p>
 
-                                                <div className='d-flex py-5 mini_icon'>
+                                                <div className='d-flex mini_icon'>
                                                         <div><img src={vagan} alt=""
                                                                 className='ing-fluid' />
                                                                 <span>
@@ -53,11 +53,11 @@ const HeroSection = () => {
 
                                                 </div>
 
-                                </div>
+                                        </div>
 
-                                <div className="col-md-5">
+                                        <div className="col-md-5">
                                                 <img src={hero} alt="hero image" classname="img-fluid w-100" />
-                                </div>
+                                        </div>
 
                                 </div>
                         </div>

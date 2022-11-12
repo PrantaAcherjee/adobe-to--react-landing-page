@@ -18,8 +18,8 @@ const AdvantageSection = () => {
          
       </div>
       <div className="grid_div">
-        <div className='d-flex border_right'>
-          <div>
+        <div className=' border_right'>
+          <div className='d-flex justify-content-center'>
             <img src={bord} alt="" className='px-2'/>
           </div>
           <div>
@@ -28,8 +28,8 @@ const AdvantageSection = () => {
           </div>
           
         </div>
-        <div className='d-flex '>
-        <div>
+        <div className=''>
+        <div className='d-flex justify-content-center'>
             <img src={watch} alt=""className='px-2'/>
           </div>
           <div>
@@ -38,8 +38,8 @@ const AdvantageSection = () => {
           </div>
           
         </div>
-        <div className='d-flex border_right'>
-        <div>
+        <div className=' border_right'>
+        <div className='d-flex justify-content-center'>
             <img src={jar} alt="" className='px-2'/>
           </div>
           <div>
@@ -48,8 +48,8 @@ const AdvantageSection = () => {
 
           </div>
         </div>
-        <div className='d-flex'>
-        <div>
+        <div className=''>
+        <div className='d-flex justify-content-center'>
             <img src={glass} alt="" className='px-2'/>
           </div>
           <div>
@@ -62,7 +62,7 @@ const AdvantageSection = () => {
       </div>
       
 
-      <div className='text-center'>
+      <div className='text-center py-4'>
       <p className='link_paragraph'>LESEN SIE HIER DIE AUSFÜHRLICHE STUDIENLISTE ZU UNSEREN INHALTSSTOFFEN</p>
       <button className='nav_btn'>MACH DEN TEST</button>
       </div>

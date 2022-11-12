@@ -1,22 +1,31 @@
 .hero_section {
         padding-top: 5rem;
 }
-
-.hero_div {
+.hero_div{
+        position: relative;
+        height: 700px;
+}
+.hero_div::after {
         background-image: url("../../assets/Group 1.svg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: start;
-          
+        content: "";
+        position: absolute;
+        height: 620px;
+        width: 100%;
+        top: 28px;
+        left: -9rem;
+        z-index: -999;
 }
 
 .common_h2 {
         text-align: left;
-        font: normal normal bold 53px/59px Dejanire Headline;
+        font: normal normal bold 53px/59px Dejanire Headline !important;
         letter-spacing: -1.47px;
         color: #103B19;
         opacity: 1;
-        font-family: 'Poppins', sans-serif !important;
+        
 }
 
 .common_p {
@@ -27,7 +36,9 @@
         opacity: 1;
         font-family: 'Poppins', sans-serif !important
 }
-
+.mini_icon{
+margin-top: 1rem;
+}
 .bold_tag {
         text-align: left;
         font: normal normal bold 18px/59px Dejanire Headline;
@@ -111,3 +122,4 @@ span {
 
         }
 }
+ 

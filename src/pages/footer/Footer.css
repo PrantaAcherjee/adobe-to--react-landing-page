@@ -8,7 +8,7 @@
 
 .footer_p {
         text-align: left;
-        font: normal normal normal 14px/24px Poppins-Regular;
+        font: normal normal normal 14px/24px Poppins-Regular !important;
         letter-spacing: 1px;
         color: #FFFFFF7E;
         opacity: 1;
@@ -52,7 +52,7 @@ left: 50%;
 
 .card_h2 {
         text-align: left;
-        font: normal normal bold 56px/64px Dejanire Headline;
+        font: normal normal bold 56px/64px Dejanire Headline !important;
         letter-spacing: -1px;
         color: #FFFFFF;
         opacity: 1;
@@ -75,7 +75,7 @@ left: 50%;
         color: #62C476;
         opacity: 1;
         text-align: center;
-        font: normal normal medium 16px/25px Poppins;
+        font: normal normal medium 16px/25px Poppins !important;
         letter-spacing: 0px;
         color: #62C476;
         text-transform: uppercase;

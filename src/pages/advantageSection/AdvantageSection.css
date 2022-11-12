@@ -8,31 +8,33 @@
 
 }
 
-.border_right {
+/* .border_right {
         border-right: 1px solid rgb(230, 219, 219);
         padding-right: 7px;
-}
+} */
 
 .adv_h4 {
         /* UI Properties */
-        text-align: start;
+        text-align:center;
         font: normal normal 900 20px/32px Dejanire Headline;
         letter-spacing: 0px;
         color: #103B19;
         opacity: 1;
         padding-bottom: 1rem;
         font-family: 'Poppins', sans-serif !important;
-        padding-left: 1.5rem;
+        margin-top: 0.5rem;
+        
 }
 
 .adv_p {
         /* UI Properties */
-        padding-left: 1.5rem;
-        text-align: start;
+        margin-top: -2%;
+        text-align: center;
         letter-spacing: 1px;
         color: #333333;
         opacity: 1;
         font-family: 'Lora', serif;
+        padding: 0 4rem;
 }
 
 .link_paragraph {
@@ -46,21 +48,22 @@
 }
 
 .advantage_h2 {
-        text-align: left;
-        font: normal normal bold 56px/64px Dejanire Headline;
+        text-align: center;
+        font: normal normal bold 56px/64px Dejanire Headline !important;
         letter-spacing: -1px;
         color: #103B19;
         opacity: 1;
-        font-family: 'Poppins', sans-serif !important;
+        
 
 }
 
 .advantage_p {
-        text-align: left;
+        text-align:center;
         letter-spacing: 1px;
         color: #333333;
         opacity: 1;
         font-family: 'Poppins', sans-serif !important;
+        padding: 1rem 7rem;
 }
 
 

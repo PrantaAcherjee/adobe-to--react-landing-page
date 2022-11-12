@@ -1,10 +1,10 @@
 .features_h2 {
         text-align: left;
-        font: normal normal bold 56px/64px Dejanire Headline;
+        font: normal normal bold 56px/64px Dejanire Headline !important;
         letter-spacing: -1px;
         color: #103B19;
         opacity: 1;
-        font-family: 'Lora', serif !important;
+        
 }
 
 .features_p {
