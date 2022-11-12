@@ -12,9 +12,10 @@
         background-position: start;
         content: "";
         position: absolute;
-        height: 620px;
+        height: 600px;
         width: 100%;
-        top: 28px;
+        top: -10px;
+        bottom: 0;
         left: -9rem;
         z-index: -999;
 }
