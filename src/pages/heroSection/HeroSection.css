@@ -1,10 +1,13 @@
 .hero_section {
         padding-top: 5rem;
 }
-.hero_div{
+
+.hero_div {
         position: relative;
-        height: 700px;
+        height: 60rem;
+        padding-bottom: 2.5rem;
 }
+
 .hero_div::after {
         background-image: url("../../assets/Group 1.svg");
         background-repeat: no-repeat;
@@ -12,12 +15,13 @@
         background-position: start;
         content: "";
         position: absolute;
-        height: 600px;
-        width: 100%;
-        top: -10px;
+        height: 670px;
+        width: 53%;
+        top: 7%;
         bottom: 0;
-        left: -9rem;
+        right: 40%;
         z-index: -999;
+
 }
 
 .common_h2 {
@@ -26,7 +30,8 @@
         letter-spacing: -1.47px;
         color: #103B19;
         opacity: 1;
-        
+        padding: 0 1.5rem;
+
 }
 
 .common_p {
@@ -35,11 +40,14 @@
         letter-spacing: 1px;
         color: #333333;
         opacity: 1;
-        font-family: 'Poppins', sans-serif !important
+        font-family: 'Poppins', sans-serif !important;
+        padding: 0 1.5rem;
 }
-.mini_icon{
-margin-top: 1rem;
+
+.mini_icon {
+        margin-top: 1rem;
 }
+
 .bold_tag {
         text-align: left;
         font: normal normal bold 18px/59px Dejanire Headline;
@@ -47,6 +55,7 @@ margin-top: 1rem;
         color: #103B19;
         opacity: 1;
         font-family: 'Poppins', sans-serif !important;
+        padding: 0 1.5rem;
 }
 
 .btn_one {
@@ -63,7 +72,12 @@ margin-top: 1rem;
         text-transform: uppercase;
         border: none;
         margin-right: 1rem;
+        margin-left: 1.5rem;
 
+}
+
+.ratings_img {
+        padding: 1.5rem 1.5rem;
 }
 
 .btn_two {
@@ -83,10 +97,11 @@ margin-top: 1rem;
 
 .little_p {
         text-align: left;
-        font: normal normal normal 12px/24px Poppins-Regular;
+        font: normal normal normal 12px/24px Poppins-Regular !important;
         letter-spacing: 0.86px;
         color: #103B19BF;
         opacity: 1;
+        padding: 0 1.5rem;
 }
 
 span {
@@ -97,6 +112,10 @@ span {
         opacity: 1;
         margin: 0 5px;
 
+}
+
+.mini_icon {
+        padding: 0 1.5rem;
 }
 
 
@@ -123,4 +142,3 @@ span {
 
         }
 }
- 

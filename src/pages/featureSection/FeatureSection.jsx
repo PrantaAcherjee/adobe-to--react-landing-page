@@ -6,7 +6,7 @@ import right from "../../assets/Path 16.svg"
 
 const FeatureSection = () => {
   return (
-    <div className='container py-5'>
+    <div className='container pb-5'>
       <div className="row">
         <div className="col-md-4">
           <h2 className='features_h2'>Alarm im Darm und auf den Hüften?</h2>
